@@ -27,6 +27,8 @@ excerpt: "FM Fact Label is an online web-based application that builds a feature
 
 ## Publications
 
+- José Miguel Horcas, José A. Galindo, Lidia Fuentes, David Benavides. *FM Fact Label*. Science of Computer Programming (SCP). 2025. DOI: <a href="https://doi.org/10.1016/j.scico.2024.103214">https://doi.org/10.1016/j.scico.2024.103214</a>
+
 - José Miguel Horcas, José A. Galindo, Mónica Pinto, Lidia Fuentes, David Benavides. *FM Fact Label: A Configurable and Interactive Visualization of Feature Model Characterizations*. 26th International Systems and Software Product Line Conference (SPLC). Demo and Tools Track. 2022. DOI: <a href="https://doi.org/10.1145/3503229.3547025">https://doi.org/10.1145/3503229.3547025</a>
 
 ## Example
