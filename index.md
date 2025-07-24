@@ -9,7 +9,7 @@ excerpt: "FM Fact Label is an online web-based application that builds a feature
 
 *FM Fact Label* is an online web-based application that builds an FM characterization and generates its visualization as a fact label.
 
-{% include button.html text="Try it online 🏷️" link="https://fmfactlabel.adabyron.uma.es/" color="#11b786" %} {% include button.html text="View it on GitHub" icon="github" link="https://github.com/jmhorcas/fm_characterization" color="#555555" %}
+{% include button.html text="Try it online 🏷️" link="app/" color="#11b786" %} {% include button.html text="View it on GitHub" icon="github" link="https://github.com/jmhorcas/fm_characterization" color="#555555" %}
 
 ## Features
 
