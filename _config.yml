@@ -102,7 +102,7 @@ repo: "https://github.com/jmhorcas/fm_characterization"
 email: "horcas@uma.es"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 # date_format: "%-d %B %Y" # Blog post date formatting using placeholder formatting
-# google_analytics: ""
+google_analytics: "G-C10EXYZ9RJ"
 # google_analytics_anonymize_ip: ""
 # service_worker: false # Will turn off the service worker if set to false
 # short_name: "Al" # The web application short name, defaults to the site title
