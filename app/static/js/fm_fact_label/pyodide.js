@@ -10,17 +10,18 @@ async function loadPyodideAndPackages() {
     await pyodideInstance.runPythonAsync(`
         import micropip
         await micropip.install("flamapy/ply-3.11-py2.py3-none-any.whl", deps=False)
-        await micropip.install("flamapy/uvlparser-2.0.1-py3-none-any.whl", deps=False)
+        await micropip.install("flamapy/networkx-3.6.1-py3-none-any.whl", deps=False)
+        await micropip.install("flamapy/uvlparser-2.5.0-py3-none-any.whl", deps=False)
         await micropip.install("flamapy/afmparser-1.0.3-py3-none-any.whl", deps=False)
         await micropip.install("flamapy/antlr4_python3_runtime-4.13.1-py3-none-any.whl", deps=False)
-        await micropip.install("flamapy/flamapy-2.1.0.dev0-py3-none-any.whl", deps=False)
-        await micropip.install("flamapy/flamapy_fw-2.1.0.dev0-py3-none-any.whl", deps=False)
-        await micropip.install("flamapy/flamapy_fm-2.1.0.dev0-py3-none-any.whl", deps=False)
-        await micropip.install("flamapy/flamapy_sat-2.1.0.dev0-py3-none-any.whl", deps=False)
-        await micropip.install("flamapy/flamapy_bdd-2.1.0.dev0-py3-none-any.whl", deps=False)
-        await micropip.install("flamapy/dd-0.5.7-py3-none-any.whl", deps=False)
+        await micropip.install("flamapy/flamapy-2.5.0-py3-none-any.whl", deps=False)
+        await micropip.install("flamapy/flamapy_fw-2.5.0-py3-none-any.whl", deps=False)
+        await micropip.install("flamapy/flamapy_fm-2.5.0-py3-none-any.whl", deps=False)
+        await micropip.install("flamapy/flamapy_sat-2.5.0-py3-none-any.whl", deps=False)
+        await micropip.install("flamapy/flamapy_bdd-2.5.0-py3-none-any.whl", deps=False)
+        await micropip.install("flamapy/dd-0.6.0-py3-none-any.whl", deps=False)
         await micropip.install("flamapy/astutils-0.0.6-py3-none-any.whl", deps=False)
-        await micropip.install("flamapy/fmfactlabel-1.8.0-py3-none-any.whl", deps=False)
+        await micropip.install("flamapy/fmfactlabel-1.8.1-py3-none-any.whl", deps=False)
     `);
 
     document.getElementById("pyodideStatus").innerText = "Pyodide loaded. FM Fact Label ready.";
